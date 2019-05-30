@@ -1,0 +1,30 @@
+{
+  "name": "CSS",
+  "version": "1.0.0",
+  "description": "Flexbox, Grid, PostCSS, CSSNext",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younheeJang/CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younheeJang/CSS/issues"
+  },
+  "homepage": "https://github.com/younheeJang/CSS#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-grid-kiss": "^2.1.2",
+    "postcss-preset-env": "^6.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
